@@ -1,0 +1,48 @@
+class MemberRegisterService{
+   private MemberDao memberdao;
+   
+   @Autowired
+   public MemberRegisterService(MemberDao memberdao){
+      this.memberdao = memberdao;
+   }
+}   
+
+▶ java 코드(main 함수)
+
+	public void main(String[] args){
+	MemberDao memberdao = new MemberDao();	
+	MemberRegisterService regsersvc = new MemberRegisterService(memberdao);
+	}
+
+
+▶ xml로 바꾸기
+	<bean id="memberRegisterSvc class="MemberRegisterService">
+		<constructor arg ref="memberDao" />
+	</bean>
+	<bean id="memberdao class="MemberDao"></bean>
+
+▶ Annotation으로 바꾸기
+
+	xml ▶  
+	<bean id="memberRegisterSvc class="MemberRegisterService"></bean>
+	<bean id="memberdao class="MemberDao"></bean>
+	
+	@Autowired
+	public MemberRegisterService(MemberDao memberdao){
+		this.memberdao = memberdao;
+	}
+
+▶ 자바로 바꾸기.
+
+@Configuration
+	public class Example{
+	@bean
+	public MemberRegisterService memberRegSvc(){
+		return new MemberRegisterService(memberdao());
+	}
+
+	@bean
+	public MemberDao memberdao(){
+		return new MemberDao();
+	}
+}
