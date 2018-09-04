@@ -46,3 +46,5 @@ class MemberRegisterService{
 		return new MemberDao();
 	}
 }
+
+googlemap ±¸ÇöÁß 0904
