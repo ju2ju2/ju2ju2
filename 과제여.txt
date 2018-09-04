@@ -1,4 +1,4 @@
-class MemberRegisterService{
+﻿class MemberRegisterService{
    private MemberDao memberdao;
    
    @Autowired
@@ -48,3 +48,4 @@ class MemberRegisterService{
 }
 
 완성된작업1
+지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
