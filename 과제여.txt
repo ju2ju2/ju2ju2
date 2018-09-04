@@ -46,3 +46,4 @@ class MemberRegisterService{
 		return new MemberDao();
 	}
 }
+완성된작업1
