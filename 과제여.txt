@@ -1,4 +1,4 @@
-class MemberRegisterService{
+﻿class MemberRegisterService{
    private MemberDao memberdao;
    
    @Autowired
@@ -52,3 +52,6 @@ googlemap 구현중 0904
 나연언니 메롱
  이게 되는건가??? 
  지은언니 메롱 나좀 그만 놀려
+
+
+뭔지 좀 알 것 같다!
