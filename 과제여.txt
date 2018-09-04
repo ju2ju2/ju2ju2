@@ -7,7 +7,7 @@ class MemberRegisterService{
    }
 }   
 
-¢º java ÄÚµå(main ÇÔ¼ö)
+â–¶ java ì½”ë“œ(main í•¨ìˆ˜)
 
 	public void main(String[] args){
 	MemberDao memberdao = new MemberDao();	
@@ -15,15 +15,15 @@ class MemberRegisterService{
 	}
 
 
-¢º xml·Î ¹Ù²Ù±â
+â–¶ xmlë¡œ ë°”ê¾¸ê¸°
 	<bean id="memberRegisterSvc class="MemberRegisterService">
 		<constructor arg ref="memberDao" />
 	</bean>
 	<bean id="memberdao class="MemberDao"></bean>
 
-¢º AnnotationÀ¸·Î ¹Ù²Ù±â
+â–¶ Annotationìœ¼ë¡œ ë°”ê¾¸ê¸°
 
-	xml ¢º  
+	xml â–¶  
 	<bean id="memberRegisterSvc class="MemberRegisterService"></bean>
 	<bean id="memberdao class="MemberDao"></bean>
 	
@@ -32,7 +32,7 @@ class MemberRegisterService{
 		this.memberdao = memberdao;
 	}
 
-¢º ÀÚ¹Ù·Î ¹Ù²Ù±â.
+â–¶ ìë°”ë¡œ ë°”ê¾¸ê¸°.
 
 @Configuration
 	public class Example{
@@ -46,3 +46,5 @@ class MemberRegisterService{
 		return new MemberDao();
 	}
 }
+
+ì™„ì„±ëœì‘ì—…1
