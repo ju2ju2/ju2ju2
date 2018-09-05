@@ -1,0 +1,10 @@
+diff a/과제여.txt b/과제여.txt	(rejected hunks)
+@@ -45,4 +45,6 @@
+ 	public MemberDao memberdao(){
+ 		return new MemberDao();
+ 	}
+-}
+\ No newline at end of file
++}
++
++완성된작업1
