@@ -6,17 +6,18 @@ README.md는 뭘까요??? 나를 읽어주세요!!! :shipit:
 아아아ㅏ ~~과제~~ 하기 너무 빡셉니다ㅠㅠ
 
 
-####Mentioning people and teams
+#### Mentioning people and teams
+@github/support 
 @Jardinier92/2조 HI :astonished:
 @eunajjing HeartBeat Im ready for you :heart:
-@hhyojin 
+@hhyojin What do you think about these updates?
 @jieunMoon 
 @naviya0609
 @지현이는 어디갔나
 
 
 
-#오늘도 평화로운 2조
+# 오늘도 평화로운 2조
 
 
 
