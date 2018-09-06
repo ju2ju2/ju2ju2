@@ -1,0 +1,9 @@
+diff a/과제여.txt b/과제여.txt	(rejected hunks)
+@@ -47,5 +47,6 @@
+ 	}
+ }
+ 
++<<<<<<< .merge_file_a11292
+ 완성된작업1
+\ No newline at end of file
+ 지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
