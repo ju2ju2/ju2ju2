@@ -8,9 +8,31 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+# classess #
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/src/asciidoc/build
+target/
+
+# Spring Files #
+*.java.hsp
+*.sonarj
+*.sw*
+.gradle
+.settings
+.springBeans
+build.sh
+integration-repo
+ivy-cache
+spring-test/test-output/
+argfile*
+activemq-data/
+
 
 # Document file
 *.pptx
@@ -81,6 +103,7 @@ local.properties
 .tern-project
 .springBeans
 .recommenders/
+spring-*/src/main/java/META-INF/MANIFEST.MF
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
