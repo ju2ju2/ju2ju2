@@ -25,11 +25,15 @@ return 0;
 [나는 네이버다](https://www.naver.com)
 
 체크리스트를 만들어볼까요?
-- [x]\(브랜치 추가하기)
-- [x]\(브랜치 병합하기)
-- [ ]\(브랜치 체크아웃하기)
-- [ ]\(ignore 파일에 폴더추가해보기)
-- [ ]\(ignore 파일에 Spring 을 위한 목록 추가하기)
+- [x] 브랜치 추가하기
+- [ ] 브랜치 병합하기
+- [ ] 브랜치 체크아웃하기
+- [ ] ignore 파일에 폴더추가해보기
+- [ ] ignore 파일에 Spring 을 위한 목록 추가하기
 
-@Jardinier92 @eunajjing @hhyojin @jieunMoon @지현이는 어디갔나
+@Jardinier92 HI :astonished:
+@eunajjing HeartBeat Im ready for you :heart:
+@hhyojin 
+@jieunMoon 
+@지현이는 어디갔나
 #오늘도 평화로운 2조
