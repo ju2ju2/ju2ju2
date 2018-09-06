@@ -39,7 +39,6 @@ activemq-data/
 *.docx
 *.ppt
 *.pptx
-*.xlsx
 *.pdf
 
 # Excution file
