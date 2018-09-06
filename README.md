@@ -18,6 +18,8 @@ return 0;
 ```
 
 >이것은 인용입니다
+
+
 사진을 넣어보겠습니다.
 ![mari3](https://user-images.githubusercontent.com/40750607/45188623-1567b700-b270-11e8-9ce1-91f8a34ba73b.PNG)
 
@@ -31,9 +33,15 @@ return 0;
 - [ ] ignore 파일에 폴더추가해보기
 - [ ] ignore 파일에 Spring 을 위한 목록 추가하기
 
+
+
+
 @Jardinier92 HI :astonished:
 @eunajjing HeartBeat Im ready for you :heart:
 @hhyojin 
 @jieunMoon 
 @지현이는 어디갔나
+
+
+
 #오늘도 평화로운 2조
