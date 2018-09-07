@@ -47,3 +47,7 @@ class MemberRegisterService{
 	}
 }
 완성된작업1
+
+
+계산기에 추가한 내용
+과제가 빨간색으로 변했죠?
