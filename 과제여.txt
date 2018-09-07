@@ -48,4 +48,9 @@ class MemberRegisterService{
 }
 완성된작업1
 
-
+====계산 기능을 추가====
+class Calc{
+	public void calc(){
+		System.println("계산 기능을 추가");
+	}
+}
