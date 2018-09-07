@@ -1,4 +1,4 @@
-package com.controller;
+﻿package com.controller;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -82,7 +82,8 @@ public class deptController {
 		}
 		
 		//search입니다.
-		/*@RequestMapping(value="/search.do",method=RequestMethod.GET)
+		
+		@RequestMapping(value="/search.do",method=RequestMethod.GET)
 		public String search(int deptno,Model model) throws SQLException {
 			Dto dto = dao.search(deptno);
 			
@@ -91,7 +92,18 @@ public class deptController {
 			System.out.println(dtoList.get(0).getDname());
 			model.addAttribute("deptList", dtoList);
 			return "list";
-		}*/
+		}
 	
+		======= 새로 추가한 내용입니다. ======
+		@RequestMapping(value="/newtech.do",method=RequestMethod.GET)
+		public String search(int deptno,Model model) throws SQLException {
+			Dto dto = dao.search(deptno);
+			
+			List<Dto> dtoList = null;
+			dtoList.add(dto);
+			System.out.println(dtoList.get(0).getDname());
+			model.addAttribute("deptList", dtoList);
+			return "newtech";
+		}
 
 }
