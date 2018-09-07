@@ -1,4 +1,4 @@
-class MemberRegisterService{
+﻿class MemberRegisterService{
    private MemberDao memberdao;
    
    @Autowired
@@ -7,7 +7,7 @@ class MemberRegisterService{
    }
 }   
 
-�� java �ڵ�(main �Լ�)
+▶ java 코드(main 함수)
 
 	public void main(String[] args){
 	MemberDao memberdao = new MemberDao();	
@@ -15,15 +15,15 @@ class MemberRegisterService{
 	}
 
 
-�� xml�� �ٲٱ�
+▶ xml로 바꾸기
 	<bean id="memberRegisterSvc class="MemberRegisterService">
 		<constructor arg ref="memberDao" />
 	</bean>
 	<bean id="memberdao class="MemberDao"></bean>
 
-�� Annotation���� �ٲٱ�
+▶ Annotation으로 바꾸기
 
-	xml ��  
+	xml ▶  
 	<bean id="memberRegisterSvc class="MemberRegisterService"></bean>
 	<bean id="memberdao class="MemberDao"></bean>
 	
@@ -32,7 +32,7 @@ class MemberRegisterService{
 		this.memberdao = memberdao;
 	}
 
-�� �ڹٷ� �ٲٱ�.
+▶ 자바로 바꾸기.
 
 @Configuration
 	public class Example{
@@ -46,11 +46,53 @@ class MemberRegisterService{
 		return new MemberDao();
 	}
 }
-�ϼ����۾�1
 
-====��� ����� �߰�====
-class Calc{
-	public void calc(){
-		System.println("��� ����� �߰�");
-	}
-}
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_a11292
+완성된작업1
+지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
+왜 나는 지도 api도 안 뜨지
+과제에 대한 이해도가 0입니다. 힝입니다.
+뭐가 뭔지 모르겠다..by지현
+=======
+>>>>>>> 1981863eaf055acebd36b526e8d0b4ac6ff75236
+googlemap 구현중 0904
+
+나연언니 메롱
+ 이게 되는건가??? 
+ 지은언니 메롱 나좀 그만 놀려
+
+
+뭔지 좀 알 것 같다!
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+완성된작업1
+지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
+주원언니가 브랜치를 만들라고 했다.
+
+0905 오후 14시 51분
+효진이가 풀 해서 푸시를 해보려고 한다 아아니 브랜치 구별 엌퀘해
+>>>>>>> 4116fe9bf17a69e097b09ce44b360f8a03b78e67
+
+오늘도 평화로운 골골거리는 2조...
+
+>>이게 브랜치여 뭐여 
+
+파일이 잘 업데이트 되는 중인가???
+=======
+>>>>>>> .merge_file_a06392
+>>>>>>> 1981863eaf055acebd36b526e8d0b4ac6ff75236
+???????
+
+?????/?
