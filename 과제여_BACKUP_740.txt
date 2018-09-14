@@ -1,0 +1,80 @@
+﻿class MemberRegisterService{
+   private MemberDao memberdao;
+   
+   @Autowired
+   public MemberRegisterService(MemberDao memberdao){
+      this.memberdao = memberdao;
+   }
+}   
+
+▶ java 코드(main 함수)
+
+	public void main(String[] args){
+	MemberDao memberdao = new MemberDao();	
+	MemberRegisterService regsersvc = new MemberRegisterService(memberdao);
+	}
+
+
+▶ xml로 바꾸기
+	<bean id="memberRegisterSvc class="MemberRegisterService">
+		<constructor arg ref="memberDao" />
+	</bean>
+	<bean id="memberdao class="MemberDao"></bean>
+
+▶ Annotation으로 바꾸기
+
+	xml ▶  
+	<bean id="memberRegisterSvc class="MemberRegisterService"></bean>
+	<bean id="memberdao class="MemberDao"></bean>
+	
+	@Autowired
+	public MemberRegisterService(MemberDao memberdao){
+		this.memberdao = memberdao;
+	}
+
+▶ 자바로 바꾸기.
+
+@Configuration
+	public class Example{
+	@bean
+	public MemberRegisterService memberRegSvc(){
+		return new MemberRegisterService(memberdao());
+	}
+
+	@bean
+	public MemberDao memberdao(){
+		return new MemberDao();
+	}
+}
+
+완성된작업1
+지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
+왜 나는 지도 api도 안 뜨지
+과제에 대한 이해도가 0입니다. 힝입니다.
+뭐가 뭔지 모르겠다..by지현
+
+나연언니 메롱
+ 이게 되는건가??? 
+ 지은언니 메롱 나좀 그만 놀려
+
+
+뭔지 좀 알 것 같다!
+
+
+
+
+
+
+
+
+
+
+완성된작업1
+지은언니가 오늘 재미 없는 개그를 했는데 애써 웃었다.
+주원언니가 브랜치를 만들라고 했다.
+
+0905 오후 14시 51분
+효진이가 풀 해서 푸시를 해보려고 한다 아아니 브랜치 구별 엌퀘해
+
+
+오늘도 평화로운 골골거리는 2조...
